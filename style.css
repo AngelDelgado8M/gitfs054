@@ -1,0 +1,104 @@
+h1 {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fcfdfd;
+    display: inline;
+    background-color: #65869c;
+    padding: 10px;
+    border-radius: 10px 0px;
+    position: relative;
+    top: 10px; left: 10px;
+    
+}
+
+main img {
+    padding: 10px;
+    background-color: #65869c;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 30vh;
+    width: 190vh;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(1, 0, 8);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a[href="#"] {
+    background-color: rgba(17, 163, 189, 0.288);
+}
+
+nav :hover {
+    background-color: rgba(17, 163, 189, 0.288);
+}
+
+nav {
+    text-align: end;
+    width: 95%;
+    position: absolute;
+    
+}
+
+main {
+    min-height: 70vh;
+}
+
+.img2 {
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 25vh;
+}
+
+.subti {
+    padding: 5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #65869c;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #344955;
+    height: 100vh;
+}
+
+.text {
+    background-color: #65869c;
+    color: rgb(211, 218, 211);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border-style: solid;
+    display: inline-block;
+}
+
+footer h5 {
+    background-color: #65869c;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
