@@ -1,6 +1,6 @@
 .img2 {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-style: solid;
     border-radius: 10px;
     background-color: black;
@@ -51,11 +51,7 @@ body {
     background-color: #344955;
     height: 100vh;
 }
-
-main {
-    min-height: 70vh;
-}
-main img {
+header img {
     padding: 10px;
     background-color: #65869c;
     border-radius: 5px;
@@ -64,35 +60,59 @@ main img {
     width: 190vh;
     margin: 10px; 
 }
-main aside{
-    background-color: #65869c;
-    width: 40%;
+.text2 {
+    width: 110vh;
+    height: 5vh;
     border-style: solid;
+    background-color:#65869c;
+    border-radius: 1rem;
     display: flex;
-    padding: 15px;
-    border-radius: 5px;
-    display: flex;
-    
+    justify-content:center ;
+    align-items: center;
+    margin-left: 25%;
 }
-.text2{
-    background-color:  #65869c;
-    color: rgb(23, 25, 27);
+
+main{
     display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.listado{
+    background-color: rgb(181, 218, 235);
+    width: 70vh;
+    height: 70vh;
     border-style: solid;
+    display: flex;
     padding: 10px;
     border-radius: 10px;
-    margin: 20px;
-    font-family: sans-serif;
-    text-align: center;
+    margin: 2rem;
+}
+.tabla {
+    background-color: rgb(181, 218, 235);
+    width: 70vh;
+    height: 70vh;
+    border-style: solid;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2rem;
+    justify-content: center;
+}
+
+#maps{
+    width: 180vh;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row;
+    align-items: baseline;
 
 }
-.tabla{
-    background-color: #65869c;
-    width: 40%;
-    border-style: solid;
-    margin: 20px;
-    outline: 10px;
+table, tr, th, td, tbody, thead{
+    border: 4px solid cornsilk;
+    border-collapse: collapse;
 }
+
 footer h5 {
     background-color: #65869c;
     height: 5vh;
